@@ -4,7 +4,7 @@ import '../assets/scss/main.scss'
 import Header from './Header'
 
 const Template = ({ children }) => (
-  <div>
+  <div class='layout'>
     <Header />
     {children}
   </div>
